@@ -1,0 +1,71 @@
+.gallery {
+    text-align: center;
+    background: rgba(255, 127, 80, 0.2)
+}
+
+.gallery li {
+    display: inline-block;
+    width: 400px;
+    border: 4px solid black;
+    padding: 1rem;
+    background: white;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    margin: 1em;
+}
+
+.gallery img {
+    
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+/* .gallery .shit {
+    padding-bottom: 2em;
+} */
+
+.footer li {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.footer li a::after {
+    display: block;
+    content: '\f082';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    color: white;
+}
+
+.footer li:nth-child(2)>a:after {
+    content: '\f09b';
+}
+
+.footer li:nth-child(3)>a:after {
+    content: '\f099';
+}
+
+.footer {
+    background: coral;
+    color: white;
+    text-align: center;
+}
+
+.footer ul,
+.footer p {
+    display: inline-block;
+}
+
+.footer p {
+    padding-right: 5rem;
+    padding-top: 1rem;
+}

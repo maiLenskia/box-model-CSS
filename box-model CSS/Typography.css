@@ -1,0 +1,53 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body,
+input,
+textarea,
+option,
+select,
+table,
+form {
+    font: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+ol,
+ul {
+    padding-left: 2em;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+blockquote {
+    padding: 1rem;
+}
+
+blockquote p:last-child {
+    font-style: italic;
+    text-align: right;
+    opacity: 0.5;
+}
+
+blockquote p:last-child::before {
+    display: inline-block;
+    content: '-';
+    padding-right: 0.5em;
+}

@@ -1,0 +1,61 @@
+.site-header {
+    background: #f1f5f8;
+    padding: 0.3rem 0.8rem;
+}
+
+.site-header ul {
+    padding: 0;
+}
+
+.site-header nav {
+    display: inline-block;
+}
+
+.site-header ul li:not(:last-child) {
+    margin-right: 0.8rem;
+}
+
+.site-header ul li {
+    display: inline-block;
+    background: coral;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.site-header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-header ul li a:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f015';
+    display: inline-block;
+    font-weight: 900;
+    padding-right: 0.3rem;
+}
+
+.site-header ul li:nth-child(2)>a:before {
+    content: '\f2bb';
+}
+
+.site-header ul li:nth-child(3)>a:before {
+    content: '\f2b9';
+}
+
+.site-header ul li:nth-child(4)>a:before {
+    content: '\f009';
+}
+
+.site-header ul li:nth-child(5)>a:before {
+    content: '\f0e0';
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 1.875rem;
+    color: coral;
+    font-family: 'Dancing Script', serif;
+    width: 1300px;
+    padding: 0;
+}
